@@ -3,7 +3,7 @@ with open("input.txt", "r") as file:
 
 for number in numbers:
 	for multiplier in numbers:
-		if(int(number) + int(multiplier) == 2020)
+		if(int(number) + int(multiplier) == 2020):
 			solution = int(number) * int(multiplier)
-
-print(solution)
+			print(solution)
+			exit()
